@@ -1,0 +1,6 @@
+package: github.com/stakada7/getssf
+import:
+- package: github.com/ChimeraCoder/anaconda
+  version: v1.0.0
+- package: github.com/spf13/viper
+  version: v1.0.0

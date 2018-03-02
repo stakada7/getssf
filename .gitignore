@@ -1,0 +1,9 @@
+.vendor
+vendor
+bin/
+conf/*.yaml
+output/*
+!.gitkeep
+
+## for IntelliJ IDEA
+.idea/
