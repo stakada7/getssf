@@ -36,17 +36,13 @@ NOTE: The default configuration is not specify Twitter account access token and 
 
 ## TODO
 
-* [x] Whether the target data was acquired correctly with multiple connections.
-    * done. If it does not reach rate limiting errors etc, it seems to be able to acquire without any problem..
-* [x] Identify, design, and implement accounts and data that should be targeted in addition to your own account
-    * The account you should acquire with stream filter is your company's account. It is necessary to confirm in part because it stated that it is necessary to acquire in the contribution list / impression of the effect measurement.
-
+* [x] Whether the target data was received correctly with multiple connections.
+    * done. If it does not reach rate limiting errors etc, it seems to be able to receive without any problem..
 * [x] Implementation of functions that can dynamically change by changing the file in the account list
 * [x] Golang-like folder structure
-* [ ] Think about the unit of the output file 1 day, 1 hour, 5 minutes, etc. (What is a handy unit?)
-
-* [ ] Think about at what stage we will grant the first release tag
-
 * [x] Understand 420 error and reconnection logic in the implementation of Anaconda library
     * In the Anaconda library, we are handling rate limiting errors, so there is no need for the user side to handle it.
-    * In Throttling you can specify it with SetDelay method, but it is now off. In the future, it may be turned on by default.
+    * In Throttling you can specify it with SetDelay method, but it is now off. In the future, it may be turned on by default.(by anaconda)
+
+* [ ] Think about the unit of the output file. 1 day, 1 hour, 5 minutes, etc. (What is a handy unit?)
+* [ ] Think about at what stage we will grant the first release tag
