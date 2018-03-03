@@ -5,7 +5,7 @@ Development only.
 
 ## Installation
 
-To compile from source, you need Go1.01 or later (including $GOPATH setup) and glide for dependency management. After setup, then clone the source code by running the following command,
+To compile from source, you need Go1.10 or later (including $GOPATH setup) and glide for dependency management. After setup, then clone the source code by running the following command,
 
 ```
 $ mkdir -p $GOPATH/src/github.com/tribalmedia
