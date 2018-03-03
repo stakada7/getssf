@@ -8,8 +8,8 @@ Development only.
 To compile from source, you need Go1.01 or later (including $GOPATH setup) and glide for dependency management. After setup, then clone the source code by running the following command,
 
 ```
-$ mkdir -p $GOPATH/src/github.com/stakada7
-$ cd $GOPATH/src/github.com/stakada7
+$ mkdir -p $GOPATH/src/github.com/tribalmedia
+$ cd $GOPATH/src/github.com/tribalmedia
 $ git clone https://github.com/stakada7/getssf
 ```
 
