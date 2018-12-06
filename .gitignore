@@ -3,6 +3,7 @@ vendor
 bin/
 conf/*.yaml
 output/*
+tmp/*
 !.gitkeep
 
 ## for IntelliJ IDEA

@@ -8,8 +8,8 @@ Development only.
 To compile from source, you need Go1.10 or later (including $GOPATH setup) and glide for dependency management. After setup, then clone the source code by running the following command,
 
 ```
-$ mkdir -p $GOPATH/src/github.com/tribalmedia
-$ cd $GOPATH/src/github.com/tribalmedia
+$ mkdir -p $GOPATH/src/github.com/stakada7
+$ cd $GOPATH/src/github.com/stakada7
 $ git clone https://github.com/stakada7/getssf
 ```
 
@@ -33,6 +33,7 @@ NOTE: The default configuration is not specify Twitter account access token and 
 ## Specification
 
 ## License
+MIT License
 
 ## TODO
 
@@ -45,4 +46,4 @@ NOTE: The default configuration is not specify Twitter account access token and 
     * In Throttling you can specify it with SetDelay method, but it is now off. In the future, it may be turned on by default.(by anaconda)
 
 * [ ] Think about the unit of the output file. 1 day, 1 hour, 5 minutes, etc. (What is a handy unit?)
-* [ ] Think about at what stage we will grant the first release tag
+* [ ] dependency manager change to dep.

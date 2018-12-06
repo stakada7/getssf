@@ -7,6 +7,9 @@ build-cross: cmd/getssf/getssf.go
 	GOOS=linux GOARCH=amd64 go build -o bin/linux/amd64/getssf-${VERSION}/getssf cmd/getssf/getssf.go
 	GOOS=darwin GOARCH=amd64 go build -o bin/darwin/amd64/getssf-${VERSION}/getssf cmd/getssf/getssf.go
 
+tar: bin/linux/amd64/getssf-${VERSION}/getssf
+	tar -c -f tmp/bundle.tar -C tmp ../bin/linux/amd64/getssf-${VERSION}/getssf
+
 dist: build-cross
 	cd bin/linux/amd64 && tar zcvf getssf-linux-amd64-${VERSION}.tar.gz getssf-${VERSION}
 	cd bin/darwin/amd64 && tar zcvf getssf-darwin-amd64-${VERSION}.tar.gz getssf-${VERSION}
